@@ -1318,6 +1318,7 @@
 		background-size: auto,						cover;
 	}
 
+
 	html.is-loading body *, html.is-loading body *:before, html.is-loading body *:after {
 		-moz-animation: none !important;
 		-webkit-animation: none !important;
@@ -1480,6 +1481,16 @@
 	.align-right {
 		text-align: right;
 	}
+	
+	.blink_me {
+		animation: blinker 1s linear infinite;
+	  }
+	  
+	  @keyframes blinker {
+		50% {
+		  opacity: 0;
+		}
+	  }
 
 /* Loader */
 

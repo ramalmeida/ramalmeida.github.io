@@ -1,0 +1,16 @@
+# Site settings
+title: Ramon Almeida
+email: ramon.almeida@icloud.com
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Social settings
+500px_url:
+facebook_url: https://facebook.com
+github_url: https://github.com/ramalmeida
+linkedin_url: https://www.linkedin.com/in/almeidaramon
+twitter_url: https://twitter.com/RamonAlmeida_
+
+# Build settings
+markdown: kramdown

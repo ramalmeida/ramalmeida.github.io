@@ -1,16 +1,31 @@
-# Site settings
-title: Ramon Almeida
-email: ramon.almeida@icloud.com
-description: 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+title: "Ramon Almeida"
+description: "Software Engineer"
+baseurl: ""
+url: ""
 
-# Social settings
-500px_url:
-facebook_url: https://facebook.com
-github_url: https://github.com/ramalmeida
-linkedin_url: https://www.linkedin.com/in/almeidaramon
-twitter_url: https://twitter.com/RamonAlmeida_
+exclude:
+  - cvless.gemspec
 
-# Build settings
-markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+  sourcemap: never
+
+feed:
+  path: atom.xml
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"
